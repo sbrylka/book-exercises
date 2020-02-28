@@ -3,7 +3,7 @@
 # Create a vector `names` that contains your name and the names of 2 people 
 # next to you. Print the vector.
 
-names <- c("Yaroslav", "Anna")
+names <- c("Sebastian","Yaroslav", "Anna")
 print(names)
 
 # Use the colon operator : to create a vector `n` of numbers from 10:49
@@ -47,7 +47,7 @@ cos_wave <- cos(x_range)
 # Create a vector `wave` by multiplying `sin_wave` and `cos_wave` together, then
 # adding `sin_wave` to the product
 
-wave <- sin_wave * cos_wave
+wave <- sin_wave * cos_wave + sin_wave
 
 # Use the `plot()` function to plot your `wave`!
 
