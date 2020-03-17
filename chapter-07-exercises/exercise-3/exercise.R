@@ -32,7 +32,12 @@ print (g_m_words)
 # and two letters. The function should return a vector of words that go between 
 # those letters alphabetically.
 
+word_bin <- function(word, letter1, letter2){
+  word[substring(words, 1, 1) > letter1]
+  word[substring(word, 1, 1) < letter2]                
+}
 
 # Use your `word_bin` function to determine which of your words start with "e" 
 # through "q"
 
+print(word_bin(words, "e", "q"))
