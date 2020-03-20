@@ -38,7 +38,8 @@ Function example:
 ``` r
 imperial_to_metric <- function(feet,inches){
   metric <- (feet + inches / 12)*0.3048
-}```
+}
+```
 
 List example:
 ``` r
@@ -50,7 +51,8 @@ my_lunch <- c("tortilla", "tomato", "cucumber")
 meals <- list(breakfast = my_breakfast, lunch = my_lunch)
 
 #Adding third vector (third meal) to the list
-meals$dinner <- c("sandwich","sausage")```
+meals$dinner <- c("sandwich","sausage")
+```
 
 ## To-do list
 * use a dplyr package
