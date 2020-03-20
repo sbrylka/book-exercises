@@ -5,7 +5,7 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [To-do list](## To-do list)
+* [To-do list](#To-do list)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -27,7 +27,7 @@ This project will show how to:
 * use a leaflet package
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+> TBA
 
 ## Technologies
 * R 3.6.2
@@ -35,12 +35,14 @@ This project will show how to:
 
 ## Code Examples
 Function example:
-`imperial_to_metric <- function(feet,inches){
+``` r
+imperial_to_metric <- function(feet,inches){
   metric <- (feet + inches / 12)*0.3048
-}`
+}```
 
 List example:
-`#Creating two vectors of meals
+``` r
+#Creating two vectors of meals
 my_breakfast <- c("banana", "kefir")
 my_lunch <- c("tortilla", "tomato", "cucumber")
 
@@ -48,7 +50,7 @@ my_lunch <- c("tortilla", "tomato", "cucumber")
 meals <- list(breakfast = my_breakfast, lunch = my_lunch)
 
 #Adding third vector (third meal) to the list
-meals$dinner <- c("sandwich","sausage")`
+meals$dinner <- c("sandwich","sausage")```
 
 ## To-do list
 * use a dplyr package
