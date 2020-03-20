@@ -5,7 +5,7 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [To-do list](#To-do list)
+* [To do list](#to-do-list)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -54,7 +54,7 @@ meals <- list(breakfast = my_breakfast, lunch = my_lunch)
 meals$dinner <- c("sandwich","sausage")
 ```
 
-## To-do list
+## To do list
 * use a dplyr package
 * use a tidydr package
 * access a database
